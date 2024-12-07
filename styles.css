@@ -9,6 +9,7 @@ body {
 header {
     background: linear-gradient(15deg , rgb(246, 239, 193) , rgb(245, 245, 106));
     color: #000;
+    height: auto;
     padding: 0.3rem;
 }
 
@@ -78,15 +79,15 @@ section{
     }
 }
 nav{
-    margin: 20px;
+    margin: 50px;
+    height: auto;
     a{
         color: black;
         font-weight: 600;
         text-decoration: none;
+        padding: 6px;
         margin: 10px;
-        padding: 10px;
-        margin: 10px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         border-radius: 10px;
         &:hover{
             background-color: rgb(142, 152, 85);
