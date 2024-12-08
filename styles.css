@@ -101,3 +101,6 @@ nav{
     height: auto;
     transition-duration: 1s;
 }
+#seeall{
+    margin: 10px;
+}
