@@ -93,3 +93,11 @@ nav{
     border-radius: 20px;
     margin-top: 20px;
 }
+.show{
+    height: 0px;
+    overflow: hidden;
+}
+.show.active{
+    height: auto;
+    transition-duration: 1s;
+}
